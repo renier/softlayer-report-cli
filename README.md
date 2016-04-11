@@ -86,9 +86,12 @@ See the _Development_ section below.
 
 ## Usage
 
-    $ softlayer report -s datacenter:wdc01 domain:foo.bar -f csv -c id ip hostname
-    # Will report on systems from the Washington datacenter, only showing id, ip, and hostname
-    # in CSV format.
+    $ softlayer help
+    Commands:
+      softlayer cancel ID ...   # cancel a softlayer system or systems by ID
+      softlayer help [COMMAND]  # Describe available commands or one specific command
+      softlayer report          # print a softlayer account report
+
     $ softlayer help report
     Usage:
       softlayer report
