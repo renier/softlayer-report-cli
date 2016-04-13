@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = SoftLayer::CLI_VERSION
   spec.authors       = ['Renier Morales']
 
-  spec.summary       = %q{SoftLayer Report Command Line Interface}
-  spec.description   = %q{SoftLayer Report Command Line Interface.}
+  spec.summary       = %q{SoftLayer Reporting CLI}
+  spec.description   = %q{SoftLayer Reporting CLI}
   spec.homepage      = 'https://github.com/renier/softlayer-report-cli'
   spec.license       = 'MIT'
 
