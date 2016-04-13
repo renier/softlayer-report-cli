@@ -82,7 +82,15 @@ Supports various filtering and searching parameters, as well as multiple output 
 
 ## Installation
 
-See the _Development_ section below.
+**Requires Ruby installed and the bundler gem**
+
+Currently, this is not yet in rubygems. Follow this steps to get it installed for now:
+
+    git clone https://github.com/renier/softlayer-report-cli.git
+    cd softlayer-report-cli.git
+    bundle install
+    bundle exec rake build
+    gem install pkg/*.gem
 
 ## Usage
 
@@ -116,12 +124,6 @@ See the _Development_ section below.
     cancel a softlayer system by ID
 
 Credentials can also be provided with a configuration file at _~/.softlayer_. See [softlayer-ruby](https://github.com/softlayer/softlayer-ruby/blob/master/lib/softlayer/Config.rb#L11) for details.
-
-## Development
-
-After checking out the repo, run `bundle install` to install dependencies.
-
-To install this gem onto your local machine, run `bundle exec rake build`, then `gem install pkg/softlayer-cli-0.1.0.gem`.
 
 ## License
 
