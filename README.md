@@ -84,7 +84,7 @@ Supports various filtering and searching parameters, as well as multiple output 
 
 **Requires Ruby installed and the bundler gem**
 
-Currently, this is not yet in rubygems. Follow this steps to get it installed for now:
+Currently, this is not yet in rubygems. Follow these steps to get it installed for now:
 
     git clone https://github.com/renier/softlayer-report-cli.git
     cd softlayer-report-cli.git
